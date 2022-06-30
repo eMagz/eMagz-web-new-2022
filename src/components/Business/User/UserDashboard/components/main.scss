@@ -1,0 +1,18 @@
+#spec__cat__box {
+  .newArrivalProducts {
+    max-width: 928px;
+    width: 100%;
+    margin: 0 auto;
+    .newProductContainer {
+      width: 199px;
+      height: 384px;
+      margin: 0;
+      margin-bottom: 37px;
+      .newProductImg {
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

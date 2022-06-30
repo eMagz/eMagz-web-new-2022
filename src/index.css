@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  font-size: 15px;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.dropdown-toggle::before {
+  margin-top: 17px;
+  margin-left: -2px !important;
+  position: absolute;
+  z-index: 111;
+  transform: rotate(270deg);
+  color: #f05458;
+}
+
+.form-control {
+  height: 40px !important;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none !important;
+}

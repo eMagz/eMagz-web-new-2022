@@ -1,0 +1,298 @@
+.welcomeHead {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.welcomecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  margin: auto;
+
+  height: 80vh;
+}
+
+.welcomecard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.avtprof {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.avatarImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.WELCOME_BACK {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.profname {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a9a9a9;
+}
+
+.vendorbtn {
+  background-color: #4c7aaf;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.vendorbtn1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+.vendorbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.switchbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.switchbtn {
+  background-color: whitesmoke;
+  /* Green */
+  border: none;
+  color: BLACK;
+  padding: 15px 87px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.switchbtn1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+/* ================================UPDATED CSS ==================================== */
+
+.vendor_container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    118.94deg,
+    #799fff 16.8%,
+    #89aaff 34.91%,
+    #8cd6ff 77.31%,
+    #5bc2fb 94.98%,
+    #54bffb 100.72%
+  );
+}
+
+.vendor_container1 {
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+
+.VendorcircleIcon {
+  width: 42px;
+  height: 40px;
+  padding: 10px;
+}
+
+.VendorcircleIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.solution-text {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.solution-text h1 {
+  margin-left: 3rem;
+  font-size: 100px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.vendor_left-sideContainer {
+  display: flex;
+  width: 100%;
+  /* height: 70%; */
+  align-items: center;
+}
+
+.vendor_left-side {
+  margin: 15px;
+  position: relative;
+  width: 50%;
+  height: 96vh;
+  mix-blend-mode: overlay;
+  background-size: cover;
+  background-image: url("../../assets/image11.png"),
+    linear-gradient(
+      90deg,
+      rgb(5, 20, 189) 0%,
+      rgba(23, 33, 221, 0.88) 46%,
+      rgb(5, 28, 133) 100%
+    );
+}
+
+.e-business {
+  margin-top: 20px;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+  padding-right: 23px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 138.5%;
+  letter-spacing: 3px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  word-spacing: -13px;
+}
+
+.workingDiv {
+  display: flex;
+}
+
+.vendor-user_container {
+  position: absolute;
+  width: 70%;
+  height: 510px;
+}
+
+.bgLogoVsVendor {
+  position: absolute;
+  top: 113px;
+  width: 100%;
+  height: 470px;
+}
+
+.vendor-user_options {
+  position: absolute;
+  width: 80%;
+  height: 75vh;
+  background: url(/static/media/Watermark.0b131d54.png),
+    linear-gradient(
+      235.29deg,
+      #020aff -8.02%,
+      #23a3ff 31.36%,
+      #2489d2 68.48%,
+      #020eff 92.57%
+    );
+  box-shadow: 0px 3.0362px 30.6445px 7.15039px rgb(0 0 0 / 20%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  left: 10%;
+}
+
+.continueAsVendorIcon {
+  padding-top: 10px;
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phoneIcon {
+  padding-right: 2.5rem;
+}
+
+.continueAsVendorAvatar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.VendorUserAvatar {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VendorUserAvatar h5 {
+  color: #ffffff;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.VendorUserAvatar p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.continueAsVendorLogo {
+  margin-top: -50px;
+  margin-left: 5rem;
+}
+
+.continueAsVendorButton {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.vendorVsuserBtn {
+  width: 278px;
+  height: 50px;
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+  border-radius: 13px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+}

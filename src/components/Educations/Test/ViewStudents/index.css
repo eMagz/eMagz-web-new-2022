@@ -1,0 +1,34 @@
+.viewteacher_table{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+.viewdetails{
+    background-color: #cce6ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.mainview{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.qustn{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+

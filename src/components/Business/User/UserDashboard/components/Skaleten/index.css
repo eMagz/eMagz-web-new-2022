@@ -1,0 +1,6 @@
+.card_skaleten-container{
+    padding: 10px 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

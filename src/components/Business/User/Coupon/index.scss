@@ -1,0 +1,114 @@
+.wishlistText {
+  margin-left: 100px;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+  img {
+    width: 16px;
+    height: 12px;
+  }
+  span {
+    font-size: 27px;
+    font-weight: 600;
+    &:first-child {
+      margin-right: 14px;
+    }
+    &:last-child {
+      margin-left: 14px;
+    }
+  }
+}
+
+#coupon__container {
+  &.wishlist_container {
+    max-width: 1155px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .coupon_wrapper {
+      background-image: url("../../../../assets/coupon__bg__blue.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      /* background-size: 400px; */
+      width: 344px;
+      height: 148px;
+      margin: 0px;
+      margin-bottom: 52px;
+      //background-size: contain;
+
+      .couponTextContainer {
+        padding: 18px 42px 13px 42px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        .couponDescription {
+          .coupon__code {
+            font-size: 19px;
+            font-weight: 600;
+            color: #ffffff;
+          }
+          .coupon__des {
+            font-size: 7px;
+            font-weight: normal;
+            margin-bottom: 7px;
+            display: block;
+            color: #ffffff;
+          }
+          .coupon__date {
+            display: block;
+            font-size: 7px;
+            font-weight: normal;
+            margin-bottom: 32px;
+            color: #ffffff;
+          }
+          .apply__btn {
+            width: 143px;
+            height: 26px;
+            background-color: #3c83e6;
+            border-radius: 7px;
+            color: #ffffff;
+            font-size: 8px;
+          }
+        }
+        .percentText {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          span {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 3px;
+            line-height: normal;
+            display: block;
+            color: #ffffff;
+          }
+          p {
+            line-height: normal;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.couponDate {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.coupon__line {
+  //border: 1px dashed #ffffff;
+  background-image: url("../../../../assets/coupon__dash.svg");
+  background-repeat: no-repeat;
+  width: 2px;
+}

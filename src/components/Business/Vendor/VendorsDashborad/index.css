@@ -1,0 +1,73 @@
+.venDash_container{
+    margin-top: 100px;
+      bottom: 0;
+     margin-left: 40px;
+     margin-right: 40px;
+  
+  }
+  
+  .venDash_cardContainer{
+      margin:20px 20px 10px 20px;
+     
+  }
+  
+  .venDash_card{
+    position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      width: 20%;
+      height: 25vh;
+      overflow: hidden;
+    border-radius: 10px;
+    transition: width 0.4s ease-out,
+    height 0.4s ease-out;
+    margin-right:40px ;
+    margin-bottom: 40px;
+    cursor: pointer;
+    
+  }
+  
+  .venDash_card img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    z-index: -10;
+  }
+  .venDash_card:hover {
+      width: 23%;
+      height: 27vh;
+      box-shadow: 0 25px 40px 0 rgba(0,0,0,0.2);
+      font-size: 1.9rem;
+    }
+  
+  .main_content{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 2rem;
+    color: black;
+    /* background: linear-gradient(to right#e6e6ff,#f2e6ff); */
+    /* background: linear-gradient(to right, blue , green);; */
+  }
+  
+  .venDash_gragh{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .venDash_table{
+    margin: 40px 20px 10px 20px;
+  
+  }
+  .venDash_search{
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,198 @@
+.helpContainer {
+    width: 80%;
+    margin: 10px auto;
+    padding: 0px 5rem;
+}
+
+.helpText {
+    padding-bottom: 15px;
+}
+
+.helpText h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.helpText p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+.help_Input_Container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectText {
+    padding: 1rem 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.helpMessage p {
+    padding-bottom: 1rem;
+    padding: 1rem 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.MuiTypography-body1 {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 15.0976px !important;
+    line-height: 29px !important;
+    color: #000000;
+}
+
+.helpName input {
+    width: 300px;
+    padding: 5px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #EBEBEB;
+}
+
+.orderName input::-webkit-input-placeholder {
+    color: rgb(112, 112, 112);
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.helpName p {
+    margin-right: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.supportList,
+.MuiFormGroup-root {
+    flex-direction: column;
+}
+
+
+.helpDocumentSection {
+    cursor: pointer;
+    padding: 3rem 0;
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    /* height: 250px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.helpUploadContainer {
+    margin: 10px;
+    width: 20%;
+    height: 170px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.helpUploadSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.helpUploadSection img {
+    width: 54px;
+    height: 36px;
+    display: inline-block;
+}
+
+.helpUploadSection p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.helpBtnContainer {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.helpBtn {
+    width: 300px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background: #3C83E6;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.submitWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submitImg {
+    width: 465.54px;
+    height: 294.62px;
+}
+
+.submitWrapper h1 {
+    padding-top: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.3077px;
+    text-transform: capitalize;
+}
+
+.submitWrapper p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.helpIngText {
+    padding: 2rem 7rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}

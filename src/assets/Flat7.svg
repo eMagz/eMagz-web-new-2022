@@ -1,0 +1,11 @@
+<svg id="Flat7" xmlns="http://www.w3.org/2000/svg" width="17.407" height="42.067" viewBox="0 0 17.407 42.067">
+  <path id="Path_59" data-name="Path 59" d="M177.407,24V64.617a1.451,1.451,0,0,1-1.451,1.451H165.947a1.453,1.453,0,0,1-1.3-.8,46.267,46.267,0,0,1-3.123-32.014A40.125,40.125,0,0,1,165.077,24Z" transform="translate(-160 -24)" fill="#ccdce4"/>
+  <path id="Path_60" data-name="Path 60" d="M192.739,24v5.407L176.86,33.256a46.1,46.1,0,0,1,2.151-6.355,28.254,28.254,0,0,1,1.4-2.9Z" transform="translate(-175.331 -24)" fill="#ff7272"/>
+  <path id="Path_61" data-name="Path 61" d="M214.317,24v2.9H200.59a28.258,28.258,0,0,1,1.4-2.9Z" transform="translate(-196.91 -24)" fill="#d63434"/>
+  <path id="Path_62" data-name="Path 62" d="M203.7,162.916a43.609,43.609,0,0,1-3.7-17.407,42.772,42.772,0,0,1,.921-8.778l9.233-2.238v28.423Z" transform="translate(-196.374 -124.475)" fill="#ff7272"/>
+  <g id="Group_6" data-name="Group 6" transform="translate(6.323 16.996)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="2" cy="2" r="2" transform="translate(0.085 0.004)" fill="#d63434"/>
+    <path id="Path_63" data-name="Path 63" d="M248,288h1.451v1.451H248Z" transform="translate(-246.344 -281.061)" fill="#d63434"/>
+    <path id="Path_64" data-name="Path 64" d="M240,320h2.9v1.451H240Z" transform="translate(-239.07 -310.159)" fill="#d63434"/>
+  </g>
+</svg>

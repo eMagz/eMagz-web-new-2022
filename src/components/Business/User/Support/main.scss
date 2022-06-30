@@ -1,0 +1,63 @@
+.wishlist__text {
+  max-width: 1150px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+  img {
+    width: 16px;
+    height: 12px;
+  }
+  span {
+    font-size: 27px;
+    font-weight: 600;
+    &:first-child {
+      margin-right: 14px;
+    }
+    &:last-child {
+      margin-left: 14px;
+    }
+  }
+}
+.submit__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  .submit__wrapper {
+    h1 {
+      text-align: center;
+      margin-bottom: 28px !important;
+      font-size: 45px;
+      font-weight: 600;
+      line-height: normal;
+    }
+    p {
+      font-size: 22px;
+      text-align: center;
+      font-weight: 400;
+      margin-bottom: 52px;
+      line-height: normal;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      height: 85px;
+      width: 383px;
+      font-size: 26px;
+      font-weight: 600;
+    }
+    .submit__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 52px;
+      img.support__image {
+        width: 465px;
+        height: 294px;
+      }
+    }
+  }
+}

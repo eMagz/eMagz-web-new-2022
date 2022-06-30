@@ -1,0 +1,47 @@
+.side-edudrawer{
+    height: 100%;
+    background-color:white;
+    
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    max-width: 300px;
+    z-index: 200;
+    transform: translateX(200%);
+    transition: transform 0.4s ease-out;
+}
+
+.side-edudrawer.open{
+    transform: translateX(0);
+}
+
+
+.heading{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.main_list{
+    overflow: scroll;
+    height: 70vh;
+}
+
+.headingName{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    color: black;
+}
+
+
+
+
+
+
+

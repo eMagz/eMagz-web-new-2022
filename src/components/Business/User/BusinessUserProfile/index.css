@@ -1,0 +1,54 @@
+.userProfile_container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.leftbar{
+    width: 23%;
+    margin-left: 40px;
+}
+.rightbar{
+    width: 70%;
+    margin-right: 40px;
+}
+
+.usercard {
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height:80px;
+    margin-bottom: 20px;
+  }
+.setting_list{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+   
+    
+}
+
+.profile_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rigtside_setting_card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 120vh;
+    overflow: hidden;
+}
+
+
+

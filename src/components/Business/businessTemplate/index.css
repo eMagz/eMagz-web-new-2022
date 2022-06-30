@@ -1,0 +1,143 @@
+.profileContainer{
+   background-color: #cccccc;
+   margin-top: 60px;
+   height: 100%;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.image_head{
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("../../../assets/about-2.jpg") center no-repeat;
+	background-size: cover;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+.heading{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.share_Icon{ 
+  font-size: 20px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+
+.company_Name{
+   margin-top: 45px ; 
+}
+
+.logoImage{
+    margin-top: 55px;
+    border-radius: 50%;
+    width: 5rem;
+    margin-right: 10px;
+}
+
+.rating{
+    margin-left: 10px;
+    margin-top: 70px;
+    display: block;
+}
+
+.total-rate{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.value-rate{
+    color: white;
+    background-color: #f05458;
+    padding: 2px 3px;
+    border-radius: 33px;
+}
+.circle{
+    color: white;
+}
+.votes{
+    color:white;
+    margin-left: 10px;
+}
+.value_votes{
+    margin-right: 10px;
+    background-color: #f05458;
+    padding: 2px 3px;
+    border-radius: 33px;
+}
+.address{
+    margin-top: 10px;
+    display: block;
+    color: white;
+    margin-left: -30px;
+}
+
+.locationIcon{
+    margin-right:10px;
+}
+
+.contact{
+    color: white;
+    display: flex;
+    margin-top: 10px;
+}
+.email_contact{
+    margin-left: 2px;
+    color: white;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email-text{
+    font-size: 400;
+    font-size: 15px;
+    width: auto;
+}
+.phone{
+    margin-top: 0px;
+}
+
+.phone-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.iconsContainer{
+    margin-top: 3rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.iconList{
+    margin-left: 10px;
+    display: flex;
+}
+
+.indIcon{
+    margin-right: 4rem;
+}
+.totalProducts{
+    margin-right: 5rem;
+}
+
+.icon{
+    margin-right: 20px;
+    font-size: 30px;
+    height: 5rem;
+    width: 5rem;
+    color: white;
+}
+
+.iconName{
+    color: white;
+}

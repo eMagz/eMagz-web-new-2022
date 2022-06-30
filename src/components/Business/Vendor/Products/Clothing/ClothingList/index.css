@@ -1,0 +1,15 @@
+.clothinglist_container{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clothinglist_table{
+    margin-top: 50px;
+    clear: both;
+}
+
+.addlist_buttons{
+    float: right;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,172 @@
+.wishlist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wishlist_wraper {
+    background-image: url('../../../../assets//Watermark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1010px 868px;
+}
+
+.wishlist_containerW {
+    padding: 0 5rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.wishlistText {
+    padding: 1rem 6rem;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.wishlistText h3 i {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.wishlist__image {
+    height: 200px;
+    width: 200px;
+}
+
+.empty__text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 6rem;
+}
+
+.wishWrapper {
+
+    position: absolute;
+    top: 23px;
+    background-image: url("../../../../assets/Watermark.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1300px;
+    opacity: 0.8;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+    overflow: hidden
+}
+
+.wishContainer {
+    margin: 18rem auto 0 auto;
+
+    width: 530px;
+    height: 350px;
+}
+
+.wishContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.wishTextContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saveWishText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55.9756px;
+    line-height: 84px;
+    padding-top: 4rem;
+    text-transform: capitalize;
+}
+
+.saveWishTextP {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+.saveWishBtn {
+    padding-top: 3rem;
+}
+
+.saveWishBtn button {
+    width: 350px;
+    height: 72px;
+    background: #3C83E6;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.newProductImg {
+    position: relative;
+}
+
+.newProductImg i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.wishListproduct-Container {
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.manageOrder {
+    margin-right: 4rem;
+    background-color: #fff;
+    color: black;
+    width: 223px;
+    border: 1px solid black;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.orederNow {
+    width: 223px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #3C83E6;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}

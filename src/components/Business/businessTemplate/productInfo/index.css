@@ -1,0 +1,49 @@
+.product_card_container{
+    padding: 2px 8px;
+}
+
+.product_card_head{
+text-align: center;
+padding-top: 20px;
+font-size: 1.2rem;
+
+}
+
+
+
+
+.product_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    height: 45vh;
+    border-radius: 30px;
+  }
+  
+  .product_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product_cost{
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 8px;
+}
+
+.product_weight{
+   font-size: 0.8rem;
+   text-align: center;
+   padding-top: 2px;
+}
+
+.product_image{
+    width: 100%;
+    
+    height: 100%;
+    
+}
+
+.image_container{
+    height: 35vh;
+}
+

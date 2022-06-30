@@ -1,0 +1,31 @@
+.appbar{
+    top: 20;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 60px;
+   
+}
+
+.userProfile{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.callingProfile{
+   
+    height: 200px;
+    width: 200px;
+}
+
+.side-drawer.open {
+    transform: translateX(0);
+ }
+
+.bellicon{
+    margin-right: 10px;
+}
+

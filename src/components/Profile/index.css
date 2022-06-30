@@ -1,0 +1,32 @@
+.profilebox {
+    width:50%;
+    height:200px;
+    background:#FFF;
+    margin:40px auto;
+}
+  .profileshadow
+  {
+      position:relative;
+      box-shadow:
+      0px 0px 10px #cccccc;
+    
+    ;
+  } 
+  
+.rowView{
+  width: 80%;
+  padding: 5%;
+}
+.form2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubtn{ background-color: #ED3237 !important; color: white  !important; min-width: 300px  !important; margin: 20px 0px  !important; }
+
+.badge{
+margin: 220px 20px;
+}
+
+  

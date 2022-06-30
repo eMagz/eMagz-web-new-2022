@@ -1,0 +1,281 @@
+.temp3_container{
+
+    padding: 6px;
+    margin-top: 90px;
+    }
+    
+    .tem3_card3{
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        height: 120vh;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .temp3_header{
+        height: 200px;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 60px; 
+        position: relative;  
+    }
+    
+    .temp3_main{
+       
+        padding-left: 20px;
+        position: absolute;
+        left: 0;
+       transform: translateY(-100px);
+       z-index: 300;
+       
+        
+    }
+    
+    
+    
+    
+    .temp3_picture{
+        
+        vertical-align: middle;
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+         border: 5px solid white ;
+    
+    
+     }
+    
+    .temp3acc_info{
+        display: flex;
+        flex-direction: row; 
+         justify-content: space-between;
+        width: 25vw;
+        padding-top: 120px;
+        z-index: 600;
+       padding-left: 20px;
+    }
+    
+    .camera_icon3{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+       
+    }
+    
+    .tabs3_image{
+        margin: auto;
+        width: 20vw;
+        height: 30vh; 
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+.back_img{
+    height: 100%;
+
+}
+
+.collegeprofile_details3{
+    display: flex;
+    height: 5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.collegeprofName3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.profMail3{
+    color: gray;
+}
+
+.profBio3{
+    width: 40vw;
+    height: 30px;
+    white-space: nowrap; 
+    overflow: hidden;
+    font-weight: 500;
+    text-overflow: ellipsis; 
+    padding-top: 7px;
+}
+
+.more_details3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+.profile3_edit_btn{
+    margin: 0px 10px 30px 0px;
+}
+
+.edit3_btn{
+    background-color: #c2ffc2; 
+    border: none;
+    border-radius: 50px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 25px; */
+    margin: 0px 7px;
+    cursor: pointer;
+   outline: none;
+   color:black;
+    transition-duration: 0.4s;
+}
+
+.edit3_btn1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.about_us_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+  
+ 
+.heading_cont span{
+    display: inline-block;
+    position: relative;
+    width: 37px;
+    height: 1px;
+    transform: translateY(-10px);
+   
+}
+
+.heading_cont{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading_cont h2{
+    font-family: 'Roboto Slab', serif;
+    
+    font-weight: normal;
+    line-height: normal;
+    display: inline-block;
+    position: relative;
+}
+
+.about_us_body{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main_body{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+/* vision */
+
+.vision_mission_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.heading_vismis{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading_vismis h2{
+    font-family: 'Roboto Slab', serif;
+    
+    font-weight: normal;
+    line-height: normal;
+    display: inline-block;
+    position: relative;
+}
+
+.heading_vismis span{
+    display: inline-block;
+    position: relative;
+    width: 37px;
+    height: 1px;
+    transform: translateY(-10px);
+   
+}
+
+.vis_mis_body{
+    width: 100%;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.cornerpattern{
+    padding: 45px;
+    overflow: hidden;
+    
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #F9F9F9;
+    min-height: 205px;
+    padding-left: 23px;
+}
+
+.row{
+    margin: 0 -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vis_header{
+    font-size: 23px;
+    line-height: normal;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+
+.followCollege{
+  align-self: center;
+  margin-right: 27px;
+}
+
+.collegeBtn{
+    transition: all .2s ease-in-out;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 19px;
+    background-color: #007bff;
+    border: none;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 7px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+.collegeBtn:hover{
+    transform: scale(1.1);
+    background-color: #1f466f;
+}
+
+
+

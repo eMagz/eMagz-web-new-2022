@@ -1,0 +1,83 @@
+.our-declaration{
+    margin-top: 4rem;
+    background-color: rgb(243, 236, 230);
+    height: 95vh;
+    width: 100%;
+}
+
+.dec-wraper{
+    margin-top: 2rem;
+}
+
+.declaration-text{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.declarationText{
+    margin-top: 3rem;
+    height: 250px;
+    width: 70%;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 15px 26px 10px 30px rgba(207,27,27,0);
+}
+
+.anthom{
+    padding: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.gaan{
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.missionWraper{
+    margin-top: 1rem;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission{
+    margin-left: 1rem;
+    flex: 0.5;
+    background-color: #fff;
+}
+
+.vission{
+    margin-right: 1rem;
+    flex: 0.5;
+    background-color: #fff;
+}
+
+.mission h3{
+    padding: 10px;
+}
+
+.mission p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 16px;
+
+}
+
+
+.vission h3{
+    padding: 10px;
+}
+
+.vission p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 16px;
+    
+}

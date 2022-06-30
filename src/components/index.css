@@ -1,0 +1,217 @@
+.appbar {
+	top: 20;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	min-height: 60px;
+}
+
+.userProfile {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+.callingProfile {
+	height: 200px;
+	width: 200px;
+}
+
+.side-drawer.open {
+	transform: translateX(0);
+}
+
+.bellicon {
+	margin-right: 10px;
+}
+
+/* .LandingCard {
+	position: absolute;
+	width: 305.79px;
+	height: 330px;
+	left: 670px;
+	top: 314px;
+
+	background: #ffffff;
+	border-radius: 25.4826px;
+} */
+.LandingCard {
+	width: 70%;
+	display: flex;
+	border-radius: 25.4826px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-left: 5rem;
+}
+.signInCard:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}
+
+.signInCard {
+	width: 317px;
+	height: 342.1px;
+	background: #ffffff;
+	border-radius: 26.4167px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.boxHover {
+	position: absolute;
+	width: 317px;
+	height: 342.1px;
+	left: 765.44px;
+	top: 293.8px;
+	transition: all 1s ease;
+}
+.boxHover2 {
+	position: absolute;
+	width: 317px;
+	height: 342.1px;
+	left: 1433.91px;
+	top: 378.86px;
+	transition: all 1s ease;
+}
+
+.signInCard:hover {
+	box-shadow: 10px 10px 5px 0px rgba(52, 52, 52, 0.75);
+}
+.signUpCard:hover {
+	box-shadow: 10px 10px 5px 0px rgba(67, 67, 67, 0.75);
+}
+
+.signUpCard {
+	width: 244.63px;
+	height: 264px;
+	background: #ffffff;
+	border-radius: 20.3861px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.signUpCard:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}
+
+.landingSignInLogo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.landingSignInLogo img {
+	width: 150px;
+	height: 150px;
+}
+
+.landingSignInText {
+	width: 100%;
+	padding: 1rem;
+	margin-top: 10rem;
+}
+.landingSignInText h3 {
+	font-family: Poppins;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28.2602px;
+	line-height: 42px;
+	color: #000000;
+	text-transform: capitalize;
+}
+.landingSignInText p {
+	padding-top: 10px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15.91892px;
+	line-height: 13px;
+	text-align: start;
+}
+
+.landingSignUpLogo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.landingSignUpLogo img {
+	width: 100px;
+	height: 100px;
+}
+
+.landingSignUpText {
+	width: 100%;
+	padding: 1rem;
+	margin-top: 10rem;
+}
+.landingSignUpText h3 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22.18px;
+	line-height: 33px;
+	color: #000000;
+	text-transform: capitalize;
+}
+.landingSignUpText p {
+	padding-top: 10px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 10px;
+}
+
+.landingSignInLogo {
+	background-image: url("../assets/signUpIcon.png");
+
+	width: 151px;
+	height: 150px;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	float: right;
+	background-position-y: -20px;
+	background-size: cover;
+}
+
+.landingSignUpLogo {
+	background-image: url("../assets/signInImg.png");
+	width: 130px;
+	height: 130px;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	float: right;
+	background-position-y: -20px;
+	background-size: cover;
+}
+
+.landingSignInLogo img {
+	width: 60px;
+	height: 60px;
+	margin: 2rem 3rem 0 0;
+}
+
+.landingSignUpLogo img {
+	width: 40px;
+	height: 40px;
+	margin: 2rem 3rem 0 0;
+}
+
+.landingSignIn {
+	margin-top: 5rem;
+	padding: 2rem;
+}
+
+/* .landingSignInLogo img{
+    width: 30px;
+    height: 30px;
+    margin: 3rem 3rem 0 0;
+} */

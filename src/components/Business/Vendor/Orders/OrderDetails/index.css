@@ -1,0 +1,48 @@
+.paymentContainer1{
+    margin: auto;
+    height: 130vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.addressContainer{
+    margin: 5rem; 
+    position: relative;
+}
+
+.orderContainer_nav{
+    width: 100%;
+    height: 70px;
+    background-color: #f05458;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.orderAddress{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding-left:30px;
+    padding-top: 10px;
+    margin-left: -25px;
+
+}
+
+.updateBtn{
+    background-color: blue;
+    color: white;
+}
+.receiptHeader{
+   display: flex;
+   justify-content: space-between;
+}
+
+.HeaderLogo{
+    height: 100px;
+    width: 100px;
+}
+.headingText{
+    display: inline;
+}
+
+
+

@@ -1,0 +1,201 @@
+.wishlistText {
+  margin-left: 100px;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+  img {
+    width: 16px;
+    height: 12px;
+  }
+  span {
+    font-size: 27px;
+    font-weight: 600;
+    &:first-child {
+      margin-right: 14px;
+    }
+    &:last-child {
+      margin-left: 14px;
+    }
+  }
+}
+.order__container {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0 auto;
+  .order__wraper {
+    display: flex;
+    margin-bottom: 36px;
+    justify-content: space-between;
+    .order__details {
+      display: flex;
+      width: 685px;
+      align-items: center;
+      .order__img {
+        width: 185px;
+        height: 181px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          background: #c4c4c4;
+          border-radius: 16.2541px;
+        }
+      }
+      .order__description {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5rem;
+        h3 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          //letter-spacing: 1px;
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+        .order__qty {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p.ordered__qty {
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 7px;
+          }
+          p.ordered__price {
+            //align-self: flex-end;
+            margin-bottom: 0 !important;
+            text-align: left;
+            i {
+              font-size: 26px;
+              font-weight: 600;
+              margin-right: 4px;
+            }
+            span {
+              font-size: 30px;
+              font-weight: 600;
+            }
+          }
+        }
+        .delivery__text {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          letter-spacing: 0;
+          margin: 0;
+          padding: 0;
+          margin-bottom: 6px;
+        }
+        .order__rating {
+          display: flex;
+          align-items: center;
+          .star__icon {
+            .react-stars {
+              span {
+                font-size: 35px !important;
+                margin-right: 11px;
+              }
+            }
+          }
+          p {
+            font-size: 19px;
+            font-weight: 500;
+            margin-left: 32px;
+            margin-bottom: 0 !important;
+          }
+        }
+      }
+    }
+    .order__buttons {
+      display: flex;
+      width: 407px;
+      align-items: center;
+      margin-left: 1.5rem;
+      padding-left: 15px;
+      .order__cancelBtn {
+        margin-right: 10px;
+        width: 202px;
+        height: 64px;
+        background-color: #fff;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: black;
+      }
+      .order__helpBtn {
+        padding: 10px;
+        width: 202px;
+        height: 64px;
+        border: none;
+        background: #3c83e6;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+      }
+    }
+  }
+  .add__more {
+    margin-top: 100px;
+    margin-bottom: 133px;
+    h3 {
+      margin-bottom: 26px;
+      text-align: center;
+      font-size: 45px;
+      font-weight: 600;
+    }
+    button {
+      height: 78px;
+      width: 288px;
+      background-color: #3c83e6;
+      margin: 0 auto;
+      display: block;
+      font-size: 27px;
+      color: #ffffff;
+    }
+  }
+}
+
+.submit__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  .submit__wrapper {
+    h1 {
+      text-align: center;
+      margin-bottom: 21px;
+      font-size: 45px;
+      font-weight: 600px;
+    }
+    p {
+      font-size: 22px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 52px;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+    .submit__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 52px;
+      img.order__img {
+        width: 267px;
+        height: 267px;
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+.big-image {
+  background-image: url('../../../assets/welcome/WelcomeScreen.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.frame-image {
+  height: 20px;
+  width: 20px;
+}
+
+.adjust {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(45deg, #0F0AA4, #2992E3);
+  float: inline-end;
+}
+
+.reactbox {
+  height: 114px;
+  width: 100%;
+  min-width: 228px;
+  background-image: url("../../../assets/welcome/ic_bglogo.png"), linear-gradient(#0F0AA4, #2992E3);
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.reactboxTwo {
+  height: 114px;
+  width: 100%;
+  min-width: 228px;
+  background-image: url("../../../assets/welcome/ic_bglogo.png"), linear-gradient( #FFBE4E, #E35B00);
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.reactboxThree {
+  height: 114px;
+  width: 100%;
+  min-width: 228px;
+  background-image: url("../../../assets/welcome/ic_bglogo.png"), linear-gradient( #FF8DB6, #CC0022);
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.reactboxFour {
+  height: 114px;
+  width: 100%;
+  min-width: 228px;
+  background-image: url("../../../assets/welcome/ic_bglogo.png"), linear-gradient( #00A498, #46F2DB);
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.textPosition {
+  margin-top: 59px;
+  margin-left: 14px;
+}
+
+.display-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 38px;
+}
+
+.display-grid .col-6 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.display-grid .normal-view:nth-child(1) {
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.display-grid .normal-view:nth-child(2) {
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.display-grid .normal-view:nth-child(3) {
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.text2Position {
+  margin-top: -52px;
+  margin-left: -53px;
+}
+
+.over {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text1 {
+  color: #fff;
+  font-weight: 550;
+  font-family: poppins;
+  font-size: 18px;
+}
+
+.text2 {
+  color: #fff;
+  font-weight: 400;
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 34%;
+  margin-top: 145px;
+  margin-left: -77px;
+}
+
+.verticalSpace {
+  margin: 30px;
+}
+
+.reactbox .zoomView {
+  height: 141px
+}

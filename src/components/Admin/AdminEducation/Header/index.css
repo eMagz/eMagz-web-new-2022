@@ -1,0 +1,45 @@
+.shedow{
+  box-shadow: 0px 0px 5px #cccccc;
+}
+
+
+.navbusinessbar{
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 60px;
+  background-color:  #f05458;
+  position: fixed;
+  z-index: 800;
+
+}
+
+.hambutton{
+  outline: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pageName{
+  color: '#5CEEFD';
+  margin-top: 10px !important;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

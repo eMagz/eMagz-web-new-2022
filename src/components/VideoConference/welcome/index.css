@@ -1,0 +1,276 @@
+.welcome_background {
+    background: radial-gradient(circle, rgba(77, 80, 182, 1) 3.07%, rgba(9, 7, 112, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    border: 11px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.frame-image {
+    height: 30px;
+    width: 30px;
+}
+
+.adjust {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(45deg, #0F0AA4, #2992E3);
+    float: inline-end;
+}
+
+.container_video {
+    background-image: url('../../../assets/videoConference/bg_video.png');
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    max-height: fit-content;
+    min-height: 100%;
+    background-repeat: no-repeat;
+}
+
+.col-6 {
+    margin: 0px;
+}
+
+.userContainer {
+    height: 75px;
+    width: 76%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -35px;
+    display: flex;
+    /* position: absolute; */
+}
+
+#timelble {
+    margin-bottom: 8px;
+    color: #ffffff;
+    align-items: center;
+    margin-right: 49px;
+}
+
+.lbl-text1 {
+    font-size: 11px;
+    color: #141414;
+    font-weight: 400;
+}
+
+.lbl-text-header {
+    font-size: 14px;
+    color: #0E0AFF;
+    font-weight: 600;
+}
+
+.icon-container {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.margin {
+    margin-left: 1px;
+}
+
+.close-btn {
+    height: 46px;
+    width: 100%;
+    background-color: #262323;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-btn-text {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.btn-schedule {
+    height: 46px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 210deg at 70% 110%, #0f0aa4, #0c15af, #0f27ba, #123ac5, #154ecf, #1864d9, #1b7be3, #2992e3);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2.3rem;
+    outline: 0;
+}
+
+.input-txt {
+    width: 96%;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #F3F3F3!important;
+    border-width: 0px;
+}
+
+.model-body {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: contents;
+    flex-direction: column;
+    line-height: 2.5;
+    border-radius: 10px;
+}
+
+.lblTxt {
+    margin-left: 15px;
+}
+
+.input-txt-jm {
+    border-width: 0.5px !important;
+    width: 96%;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    border-color: #D4D4D4;
+}
+.input-txt-jm, input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 18px!important;
+}
+.btn-join-jm {
+    height: 46px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 210deg at 70% 110%, #0f0aa4, #0c15af, #0f27ba, #123ac5, #154ecf, #1864d9, #1b7be3, #2992e3);
+}
+
+.btn-cancel-jm {
+    height: 46px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 210deg at 70% 110%, #787878, #787878, #787878, #787878, #787878, #787878, #787878, #787878);
+}
+
+.lbl1 {
+    color: #fff;
+    font-size: 10px;
+}
+
+.chatBtn {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: conic-gradient(from 210deg at 70% 110%, #0f0aa4, #0c15af, #0f27ba, #123ac5, #154ecf, #1864d9, #1b7be3, #2992e3);
+    flex-direction: row;
+    margin-right: 13px;
+}
+
+.chatTxt {
+    width: 96%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    border-width: 0px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.chatTxt, input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 18px!important;
+}
+
+.containerVideoClass {
+    height: 197px;
+    width: 90%;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.userNametext {
+    color: #fff;
+    position: absolute;
+    top: 164px;
+    margin-left: 16px;
+}
+
+.textsub {
+    width: 54%;
+}
+
+.btn-join {
+    height: 46px;
+    width: 69%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 210deg at 70% 110%, #0f0aa4, #0c15af, #0f27ba, #123ac5, #154ecf, #1864d9, #1b7be3, #2992e3);
+}
+
+.btn-back {
+    height: 46px;
+    width: 69%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.timelbl {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.marginTop {
+    margin-top: 6.5rem;
+}
+
+.lbltitle {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.lblTextbtn {
+    font-size: 10px;
+    font-weight: 300;
+    color: #949494;
+}
+
+.btn-dark {
+    height: 46px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000
+}

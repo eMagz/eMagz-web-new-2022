@@ -1,0 +1,118 @@
+.schoolImage{
+    margin-top: 3.4rem;
+}
+.bannerImage{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+}
+
+.adminlogoImage{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.adminschoolName{
+    color: rgb(57, 57, 165);
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.totalInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalTeacher{
+    height: 100px;
+    background-color: #90c3ed;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.folowingContainer{
+    width: 100%;
+    margin: 5rem auto;
+    background-color: #90c3ed;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 500px;
+}
+
+
+.followersWraper{
+    float: right;
+}
+
+
+.followingListContainer{
+    width: 420px;
+    background-color: rgb(159, 156, 161);
+   
+    margin: 10px;
+    overflow: auto;
+    max-height: 500px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+
+.listFollowing{
+    padding: 3px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.followerHead{
+    padding: 10px 0;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.folloImg{
+    width: 50px;
+    height: 50px;
+}
+.listFollowing p{
+    max-width: 230px;
+    text-align: start;
+   font-size: 16px;
+   font-weight: 500; 
+
+}
+.folloImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.btn-container{
+    margin: 0 10px;
+}
+.follo-btn{
+    width: 130px;
+    height: 40px;
+    background-color:  #2a3469;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-radius:34.75px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);    
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.follo-btn:hover{
+    transform: scale(20px, 30px);
+    opacity: 0.8;
+}

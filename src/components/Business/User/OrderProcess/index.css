@@ -1,0 +1,175 @@
+.orderDetailsContainer{
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 7rem;
+}
+
+.orderLine{
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.basicOrderInput{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.basicOrderInput input{
+    margin: 1rem;
+}
+
+.orderName input{
+    width: 300px;
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius:6px;
+    background-color: #EBEBEB;
+}
+.orderName input::-webkit-input-placeholder{
+   color: rgb(112, 112, 112);
+   font-size: 15px;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+}
+.orderName label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.order_Input_Container{
+    display: flex;
+}
+
+.backNextBtnContainer{
+    width: 20%;
+    float: right;
+    padding: 10px 1rem;
+}
+
+.orderProcessBtn{
+    margin-right: 1rem !important;
+}
+
+.MuiStepIcon-root{
+    font-size: 30px !important;
+}
+
+
+.manageBtn{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    background: #3C83E6;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* =====================================PAYMENT CONTAINER================================== */
+
+.paymentContainerSection{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.couponContainer{
+    width: 30%;
+    
+}
+
+.paymentnow{
+    width: 480px;
+    height: 258px;
+    background: #DBDBDB;
+}
+
+.paymentNowDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+
+
+.paymentNowDec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.paymentNowDec p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0;
+    margin: 3px;
+}
+
+.payNowBtnContainer{
+    width: 100%;
+    margin-left: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payNowBtn{
+    margin: 10px auto;
+    width: 387px;
+    height: 58px;
+    background: #3C83E6;
+    border: none;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.paynowLine{
+    width: 100%;
+    border: 1px solid #00000052;;
+}
+
+.applyCouponContainer{
+    width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.applyCouponContainer input{
+    border: none;
+    background-color:rgba(33, 72, 170, 0.22);
+    height: 40px;
+    border-radius:8px;
+
+}
+
+.applyCouponContainer button{
+    border: none;
+    background-color:rgba(136, 39, 128, 0.645);
+    height: 40px;
+    width: 100px;
+    border-radius:8px;
+    color: #fff;
+    font-size: 18px;
+
+}

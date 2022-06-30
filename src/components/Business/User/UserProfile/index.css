@@ -1,0 +1,277 @@
+/* .myaccount {
+  padding: 2rem;
+  margin-left: 4rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.profile_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.profile_container h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+}
+
+.editImage {
+  padding: 10px;
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.editImage h3 {
+  font-size: 20px;
+}
+
+.editIcon {
+  margin-right: 5px;
+}
+
+.profile-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profileName {
+  width: 350px;
+  padding: 10px;
+}
+
+.profileName span {
+  background: #F3F3F3;
+  display: inline-block;
+  height: 46px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.profileGender {
+  width: 450px;
+  padding-left: 1rem;
+}
+
+
+
+.profileGender,
+.MuiFormGroup-root {
+  flex-direction: row !important;
+}
+
+.MuiTypography-body1 {
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 19.0976px !important;
+  line-height: 29px !important;
+
+
+
+  color: #000000;
+}
+
+.profile-phone {
+  width: 350px;
+  padding: 10px;
+}
+
+.profile-phone span {
+  background: #F3F3F3;
+  display: inline-block;
+  height: 46px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  padding-top: .7rem;
+}
+
+.profile-email {
+  width: 450px;
+  padding: 10px;
+  padding-left: 1rem;
+}
+
+.profile-email span {
+  background: #F3F3F3;
+  display: inline-block;
+  height: 45px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.profile-buttonContainer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 5rem;
+  justify-content: center;
+}
+
+.profile-orderContainer {
+  padding: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile-reviewContainer {
+  padding: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile-buttonContainer button {
+  height: 60px;
+  font-family: Poppins;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.profileGender {}
+
+.profile-buttonContainer button:hover {
+  transform: scale(30px, 30px);
+}
+
+
+.orderBtn {
+  background: linear-gradient(58deg, #0F0AA4 23.31%, #2992E3 117.48%);
+  width: 250px;
+}
+
+.addressBtn {
+  background: radial-gradient(74.39% 74.39% at 47.71% 50.03%, #4D50B6 3.07%, #090770 100%);
+  width: 300px;
+}
+
+.paymentBtn {
+  background: linear-gradient(49.76deg, #CC0022 24.94%, #FF8DB6 100.28%);
+  width: 300px;
+}
+
+.wishListBtn {
+  background: linear-gradient(235.29deg, #020AFF -8.02%, #23A3FF 31.36%, #2489D2 68.48%, #020EFF 92.57%);
+  width: 250px;
+}
+
+
+.couponBtn {
+  background: linear-gradient(234.92deg, #46F2DB -6.97%, #00A498 69.04%);
+  width: 300px;
+}
+
+.ratingBtn {
+  background: linear-gradient(235.35deg, #FFBE4E 2.75%, #E35B00 79.04%);
+  width: 300px;
+}
+
+.manageIcon {
+  font-size: 20px !important;
+  margin-right: 15px;
+}
+
+.logutButton {
+  width: 100%;
+  padding-top: 3rem;
+  margin: 1rem 0;
+  padding-right: 2rem;
+}
+
+.logoutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 65px;
+  background: #F93B3B;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+ 
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.profileMapIcon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coupinIcon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.deactive__acount {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.deactive__acount span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 40px;
+  color: #484848;
+  cursor: pointer;
+} */

@@ -1,0 +1,29 @@
+.otp-form{
+    max-width: 340px;
+    margin: 25px auto 0;
+}
+
+.opt-input{
+    margin: 0 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    width: 20%;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+    border-color: purple;
+    box-shadow: 0 0 5px purple inset;
+    background: transparent;
+}
+
+.otp-form button{
+        margin:  30px 0 50px;
+        width: 90%;
+        padding: 10px;
+        background-color: #4795d4;
+        border: none;
+        text-transform: uppercase;
+}

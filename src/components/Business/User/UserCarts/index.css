@@ -1,0 +1,259 @@
+.bag {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 27px;
+    line-height: 76px;
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px 10rem;
+}
+
+.cart_item-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+.closeCartItem i {
+    font-size: 22px !important;
+    cursor: pointer;
+    margin: 0;
+}
+
+.cart-product_price i {
+    font-size: 20px;
+}
+
+.price-details__heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    color: #000000;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-quantity button {
+    width: 30px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.cart-quantity input[type="number"] {
+    padding-left: 1rem;
+    font-size: 15px;
+    background-color: #FFFFFF !important;
+}
+
+.cart-input {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1.08321px solid #B7B7B7;
+    box-sizing: border-box;
+}
+
+.cart-input i {
+    position: absolute;
+    left: -20px;
+}
+
+.cart-product_name h3 {
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.2609px;
+    color: #000000;
+}
+
+.cart-product_name p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.2464px;
+}
+
+.cart-product_price {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+}
+
+.cart_image {
+    width: 126.3px;
+    height: 139.2px;
+
+}
+
+.cart_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16.2541px;
+}
+
+.cart-line {
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.cart-details_container {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart-final-common {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.cart-final-common p {
+    font-family: Poppins;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.cart-final-common h3 {
+    font-family: Poppins;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.final-cart-btn {}
+
+.final-cart-btn button {
+    width: 225px;
+    height: 51px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.orderNowBtn {
+    background: #3C83E6;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.saveLaterBtn {
+    background: #171717;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.continueShopping {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.continueShopping i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.continueText {
+    color: #46F2DB;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.nocart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.empty-image {
+    width: 179px;
+    height: 160px;
+}
+
+.empty-image img {
+    width: 100%;
+    height: 100%
+}
+
+.noProductText {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noProductText h3 {
+    padding-top: 1.5rem;
+    padding-right: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nocontinueShooping {
+    padding-top: 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #3C83E6;
+}
+
+.cart-final-delivery p {
+    color: #f5352f;
+    letter-spacing: 1px;
+    border: underline;
+}

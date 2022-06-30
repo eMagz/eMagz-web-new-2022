@@ -1,0 +1,12 @@
+.testteacher_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .testteacher_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

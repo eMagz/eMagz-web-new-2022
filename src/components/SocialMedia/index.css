@@ -1,0 +1,251 @@
+.mainsocialpage{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+
+}
+
+.mainbody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+
+
+
+
+.mainchatbody{
+  
+   width: 100%;
+   /* flex-direction: row; */
+   margin-top: 60px;
+}
+
+.chatbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 105px;
+   margin-left: 60px;
+    margin-top: 30px;
+  
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+
+.icontext{
+    width:58px;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.storybox{
+    /*display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: calc(100% - 600px); */
+    width: 50vw ;
+    float: left;
+    
+}
+
+
+
+
+ .storyblock{
+
+display: flex;
+margin-top: 20px;
+width: 100%;
+flex-direction: column;
+margin-left: 60px;
+height: 100vh;
+/* margin-bottom: 20px; */
+} 
+ 
+.storycard{
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+width: inherit;
+/* height: 90vh; */
+/* flex: 1; */
+margin-bottom: 20px;
+
+}
+
+.cardnav{
+
+display: flex;
+flex-direction: row;
+height: 60px;
+width: inherit;
+}
+.cardbody{
+    height:80vh;
+    width: 100%;
+}
+
+.cardimg{
+    width: 100%;
+    height: 80vh;
+}
+
+
+.groupicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.textcolor{
+    color: black;
+    font-size: 1rem;
+}
+
+.postname{
+    clear: both;
+  width: 100vh;
+  height: auto; 
+ 
+}
+
+.persontext{
+   
+    font-size: 1rem;
+    color: black;
+    flex-direction: column;
+    float: left;
+  
+    padding: 5px 10px;
+}
+
+
+
+.messagebox{
+    clear: both;
+    height: 30vh;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.msgfooter{
+    bottom: 0;
+    clear: both;
+  
+    /* transform: translateY(20px); */
+}
+
+/* .textbox{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.textinput{
+     width: 80%;
+   left: 0;
+     resize: none;
+   /* max-height: 80px; */
+    border: none;
+    outline: none;
+   
+    /* padding-top: 10px; */
+    padding: 0;
+  
+   
+    /* word-wrap: break-word; */
+}
+
+/* .sendbutton{
+    width: 10%;
+    opacity: 0.3;
+    appearance: none;
+    background: 0 0;
+    text-align: center;
+    text-transform: inherit;
+    width: auto;
+    font-size: 14px;
+    line-height: 18px;
+   
+   right: 0;
+   position: relative;
+} */
+
+.profiledetails{
+    width: 40vw;
+    position: fixed;
+    float: right;
+   margin-top: 30px;
+    right: 0;
+     height: 90vh;
+     margin-right: 20px;
+     
+}
+
+
+
+
+.mainprofile{
+   
+    /* height: 20vh; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.suggestion_box{
+   
+    margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+    /* width: 60%; */
+
+}
+
+.suggestion_head{
+color: gray;
+}
+
+.suggestion_list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.followers{
+    font-size: 1rem;
+    font-weight: bold;
+     margin-left: 10px;
+}
+
+.follow{
+    color:gray;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+

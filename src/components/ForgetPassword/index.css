@@ -1,0 +1,80 @@
+.box1 {
+	width: 50vw;
+	height: 100%;
+	background: #ccced3;
+	margin: auto;
+	/* margin:40px auto; */
+	transform: translateY(60px);
+}
+
+.effect1 {
+	position: relative;
+	box-shadow: 0px 0px 10px #cccccc;
+}
+
+.form1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chngepasscontainer {
+	display: flex;
+	flex-direction: column;
+	background-color: #989898;
+}
+
+.chngepasslogo {
+	margin: auto;
+	padding-bottom: 30px;
+}
+.signUpUserLogo {
+	background-image: url("../../assets//signUpIcon.png");
+	width: 140px;
+	height: 140px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -20px;
+	border-radius: 0 30px;
+}
+
+.button1 {
+	min-width: 25vw;
+}
+
+.button1:hover {
+	background-color: darkblue;
+	color: white;
+}
+
+.forgetlink1 {
+	max-width: 30vw;
+	font-size: 0.8rem;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.backToSign {
+	text-align: center;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.backToSign p {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 5px;
+	transition: all 0.5 ease-in;
+}
+
+.backToSign p:hover {
+	background-color: rgb(178, 199, 199);
+	box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+	opacity: 0.5;
+}
+
+.forgetLogo {
+	width: 120px;
+	border-top-right-radius: 31px;
+	height: 120px;
+}

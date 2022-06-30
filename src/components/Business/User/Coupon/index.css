@@ -1,0 +1,137 @@
+.wishlistText {
+  margin-left: 100px;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+}
+
+.wishlistText img {
+  width: 16px;
+  height: 12px;
+}
+
+.wishlistText span {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.wishlistText span:first-child {
+  margin-right: 14px;
+}
+
+.wishlistText span:last-child {
+  margin-left: 14px;
+}
+
+#coupon__container.wishlist_container {
+  max-width: 1155px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper {
+  background-image: url("../../../../assets/coupon__bg__blue.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 400px; */
+  width: 344px;
+  height: 148px;
+  margin: 0px;
+  margin-bottom: 52px;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer {
+  padding: 18px 42px 13px 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .couponDescription .coupon__code {
+  font-size: 19px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .couponDescription .coupon__des {
+  font-size: 7px;
+  font-weight: normal;
+  margin-bottom: 7px;
+  display: block;
+  color: #ffffff;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .couponDescription .coupon__date {
+  display: block;
+  font-size: 7px;
+  font-weight: normal;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .couponDescription .apply__btn {
+  width: 143px;
+  height: 26px;
+  background-color: #3c83e6;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 8px;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .percentText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .percentText span {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 3px;
+  line-height: normal;
+  display: block;
+  color: #ffffff;
+}
+
+#coupon__container.wishlist_container .coupon_wrapper .couponTextContainer .percentText p {
+  line-height: normal;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.couponDate {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.coupon__line {
+  background-image: url("../../../../assets/coupon__dash.svg");
+  background-repeat: no-repeat;
+  width: 2px;
+}
+/*# sourceMappingURL=index.css.map */

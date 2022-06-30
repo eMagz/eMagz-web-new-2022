@@ -1,0 +1,32 @@
+.shedow{
+  box-shadow: 0px 0px 5px #cccccc;
+}
+
+
+.navappbar{
+  top: 20;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 60px;
+  background: #f05458;
+  color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

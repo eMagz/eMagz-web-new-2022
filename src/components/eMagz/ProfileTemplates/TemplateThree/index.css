@@ -1,0 +1,226 @@
+.temp3_container {
+    padding: 6px;
+}
+
+.tem3_card3 {
+    margin: auto;
+    overflow: hidden;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.temp3_header {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.temp3_main {
+    padding-left: 20px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-100px);
+}
+
+.temp3_picture {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.temp3acc_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+    padding-top: 120px;
+    z-index: 600;
+    padding-left: 20px;
+}
+
+.camera_icon3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.tabs3_image {
+    margin: auto;
+    width: 20vw;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.back_img {
+    height: 100%;
+}
+
+.profile_details3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.profile-post{
+    display: flex;
+}
+.addpost {
+    width: 50%;
+    text-align: right;
+    font-size: .9rem;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.profName3 {
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.profMail3 {
+    color: gray;
+}
+
+.profBio3 {
+    width: 40vw;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    padding-top: 7px;
+}
+
+.more_details3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.detail_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.mt-1 {
+    color: #3f51b5;
+}
+
+.profile3_edit_btn {
+    margin: 0px 10px 30px 0px;
+}
+
+.edit3_btn {
+    background-color: #c2ffc2;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 25px; */
+    margin: 0px 7px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition-duration: 0.4s;
+}
+.post_btn {
+    background-color: #3c4eb3;
+    border: none;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 7px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+.addfile{
+    background-color: #d5d6d8;
+}
+.edit3_btn1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cord-follower{
+    display: flex;
+    margin: 10px;
+    height: 80px;
+}
+.follower-name{
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #181717;
+    opacity: 1;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.unfollowbtn{
+    font-size: 12px !important;
+    text-decoration: none;
+    margin-left: 80% !important;
+    background: #3c4eb3 !important;
+    color: #ffffff !important;
+    height: 22px;
+    padding-top: 1px !important;
+}
+.follower-status{
+    margin-left: 10px;
+    color: #3859c7;
+    opacity: 1;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+}
+.post_image{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    object-position: top;
+    object-fit: contain;
+}
+.top-view{
+    height: 210px;
+}
+.tabs_image{
+    height: 250px;
+    padding: 0px;
+}
+.description{
+    color: #000000;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    max-height: 45px;
+    overflow: hidden;
+}
+p{
+    opacity: 1;
+}
+.tags{
+    color: #0525c3;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+    max-height: 45px;
+    overflow: hidden;
+}

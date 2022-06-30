@@ -1,0 +1,234 @@
+.signUpContainer {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(
+		235.29deg,
+		#020aff -8.02%,
+		#23a3ff 31.36%,
+		#2489d2 68.48%,
+		#020eff 92.57%
+	);
+}
+
+.signUpWaterMark {
+	background-image: url("../../assets/Logowatermark.svg");
+	height: 100%;
+	width: 75%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.signupFormContainer {
+	height: 100%;
+	max-width: 960px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signUpLogo {
+	width: 200px;
+	height: 200px;
+}
+
+.signUpLogo img {
+	height: 100%;
+	width: 100%;
+	margin-right: 20px;
+}
+
+.signUpForm {
+	position: relative;
+	width: 550px;
+	max-height: 800px;
+	background: rgb(255, 255, 255);
+	border-radius: 31px;
+	left: 210px;
+}
+
+.signUpFormWraper {
+	padding-left: 3rem;
+}
+
+.signUpTop {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.signUpTop img {
+	width: 150px;
+	height: 100px;
+}
+
+.signUpUserLogo {
+	background-image: url("../../assets//signUpIcon.png");
+	width: 140px;
+	height: 140px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -20px;
+	border-radius: 0 30px;
+}
+
+.signUpUserLogo img {
+	width: 50px !important;
+	height: 45px !important;
+	margin: 2.3rem 0 0 3.5rem;
+}
+
+.signupHeading {
+	padding-top: 3rem;
+}
+
+.signupHeading h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.signupHeading p {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.inputLabel {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 0;
+}
+
+.inputLabel label {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.inputClass {
+	max-width: 550px;
+	height: 45px;
+	background: #eeeeee !important;
+	outline: none;
+	border: none;
+}
+
+.inputClass,
+input::-webkit-input-placeholder {
+	font-size: 22px;
+	line-height: 4;
+	padding-left: 5px;
+}
+.inputClass:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s;
+}
+
+.changeInputSize,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	font-size: 20px;
+}
+
+.rememberBox {
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+}
+
+.rememberBox input {
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+}
+
+.rememberBox label {
+	margin-left: 10px;
+}
+
+.signupBtn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.signupBtn button {
+	width: 150px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: rgb(74, 150, 194);
+	border-radius: 8px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	font-size: 20px;
+	color: black;
+	margin: 8px 0px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 28px;
+}
+
+.connectWith {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.facebook i {
+	cursor: pointer;
+	color: rgb(0, 38, 255);
+	font-size: 35px;
+}
+
+.google i {
+	cursor: pointer;
+	color: rgb(255, 0, 149);
+	font-size: 35px;
+}
+
+.scrollBtn {
+	position: absolute;
+	right: 167px;
+	z-index: 10;
+	height: 100px;
+	width: 100px;
+	background: rgb(255, 255, 255);
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1s ease;
+	cursor: pointer;
+	box-shadow: 1px 1px 10px 1px rgb(100, 100, 100);
+}
+
+.scrollBtn i {
+	font-size: 30px;
+	color: black;
+}
+
+.scrollBtn:hover {
+	box-shadow: 1px 1px 10px 2px rgb(100, 100, 100);
+}
+
+.forgettext {
+	text-align: end;
+	padding-right: 20px;
+}

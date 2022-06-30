@@ -1,0 +1,241 @@
+.wishlist__text {
+  max-width: 1150px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 !important;
+  margin-bottom: 57px;
+  margin-top: 38px !important;
+}
+
+.wishlist__text img {
+  width: 16px;
+  height: 12px;
+}
+
+.wishlist__text span {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.wishlist__text span:first-child {
+  margin-right: 14px;
+}
+
+.wishlist__text span:last-child {
+  margin-left: 14px;
+}
+
+.userProfile__container {
+  max-width: 1115px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 146px;
+}
+
+.userProfile__container .wrapper__single {
+  margin-bottom: 79px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userProfile__container .wrapper__single:last-child {
+  margin-bottom: 0;
+}
+
+.userProfile__container .wrapper__single .address__wrapper {
+  max-width: 685px;
+  width: 100%;
+}
+
+.userProfile__container .wrapper__single .address__wrapper .address__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 28px;
+}
+
+.userProfile__container .wrapper__single .address__wrapper .address__headline img {
+  margin-right: 32px;
+  height: 32px;
+  width: 32px;
+}
+
+.userProfile__container .wrapper__single .address__wrapper .address__headline p {
+  font-weight: 600;
+  font-size: 27px;
+  margin-bottom: 0 !important;
+}
+
+.userProfile__container .wrapper__single .address__wrapper .address_description p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.userProfile__container .wrapper__single .btn__wrapper {
+  max-width: 245px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userProfile__container .wrapper__single .btn__wrapper .edit__icon {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100px;
+  margin-bottom: 0 !important;
+}
+
+.userProfile__container .wrapper__single .btn__wrapper .edit__icon img {
+  margin-right: 9px;
+  width: 13px;
+}
+
+.userProfile__container .wrapper__single .btn__wrapper .edit__icon span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.userProfile__container .wrapper__single .btn__wrapper .remove__btn {
+  cursor: pointer;
+  color: #505050;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0 !important;
+}
+
+#add__new__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#add__new__btn button {
+  width: 447px;
+  height: 109px;
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 600;
+  background: #3c83e6;
+  border-radius: 10px;
+}
+
+.page__heading {
+  max-width: 1150px;
+  width: 100%;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.new__form__container {
+  max-width: 1016px;
+  width: 100%;
+  margin: 70px auto 0 auto;
+  padding-bottom: 80px;
+}
+
+.new__form__container form {
+  height: 100%;
+  width: 100%;
+}
+
+.new__form__container form .input__row {
+  margin-bottom: 36px;
+}
+
+.new__form__container form .input__row .input__col label {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.new__form__container form .input__row .input__col input {
+  height: 73px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  font-size: 22px;
+  background-color: #d9d9d9;
+}
+
+.new__form__container form .input__row.two__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new__form__container form .input__row.two__col .input__col {
+  width: 466px;
+}
+
+.new__form__container form .input__row.one__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new__form__container form .input__row.one__col .input__col {
+  width: 1008px;
+}
+
+.new__form__container form .tick_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 52px;
+}
+
+.new__form__container form .tick_box input {
+  cursor: pointer;
+  width: 54px;
+  height: 57px;
+  border: 5px solid #000000;
+  border-radius: 7px;
+  margin-right: 30px;
+}
+
+.new__form__container form .tick_box label {
+  cursor: pointer;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.new__form__container form button {
+  width: 447px;
+  height: 109px;
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 600;
+  background: #3c83e6;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

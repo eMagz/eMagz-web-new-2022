@@ -1,0 +1,125 @@
+.background {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    border: 11px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.videoContainer {
+    height: 287px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #000000;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    background-size: contain;
+    height: 201px;
+    width: 70%;
+}
+
+.multi-row {
+    height: 98px;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 90%;
+    /* flex-direction: row; */
+}
+
+.backColor {
+    height: 80px;
+    background-color: #000000;
+    border-radius: 10px;
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.userName {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-left: 14px;
+}
+
+.participantstext {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.adjustcol-1 {
+    flex: 0 0 31.333333%;
+    max-width: 17.333333%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text3 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.start {
+    flex: 0 0 31.333333%;
+    max-width: 17.333333%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mediaContainer {
+    flex: 0 0 87.333333%;
+    max-width: 83.333333%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.iconContainer {
+    flex: 0 0 13.333333%;
+    max-width: 13.333333%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.btncss {
+    height: 35px;
+    width: 65px;
+    border-radius: 10px;
+    background-color: #000000;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disconnectCall {
+    height: 35px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: #FF4646;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margintop {
+    margin-top: 7rem!important
+}

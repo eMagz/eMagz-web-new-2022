@@ -1,0 +1,25 @@
+.addfees_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .addfees_icon{
+    
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .addfees_table{
+        clear: both;
+    
+    }
+    .addfees_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    

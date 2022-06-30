@@ -1,0 +1,83 @@
+.user_header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f05458;
+    height: 60px;
+    z-index: 400;
+}
+.whitemenu{
+     color: 'white';
+}
+.shadow {
+    box-shadow: 0px 0px 3px #cccccc;
+}
+
+.user_header_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.user_logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user_header_input {
+    padding: 7px 10px 7px 40px;
+    margin-top: 7px;
+    border: 0px solid grey;
+    float: left;
+    width: 75%;
+    min-width: 250px;
+    font-size: 14px;
+    background: #f1f1f1;
+    outline: none;
+    position: relative;
+    border-radius: 50px;
+}
+
+.user_search {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 60px;
+}
+
+.searchicon {
+    margin-top: 10px;
+    position: absolute;
+    z-index: 200;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.MuiBadge-colorSecondary {
+    color: #000000!important;
+    background-color: #b9b9b9!important;
+}
+
+.productSearchHeader {
+    background: #ffffff;
+    z-index: 11;
+    width: 350px !important;
+    overflow: scroll;
+    list-style: none !important;
+    margin-left: 0px !important;
+    padding-left: 10px !important;
+    border: 1px solid #cccccc;
+    width: calc(100% - 10px);
+}
+.searchListItem{
+    cursor: pointer;
+    margin: 10px 10px;
+    color: black
+}
+
+.searchListItem:hover{
+    background-color: rgb(193, 233, 226);
+}

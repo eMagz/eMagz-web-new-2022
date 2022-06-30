@@ -1,0 +1,10 @@
+.fullCalendar{
+    margin: 100px 10% auto;
+}
+.fc-col-header-cell-cushion, .fc-daygrid-day-number{
+    color: brown;
+}
+.fc-timeGridDay-button,.fc-timeGridWeek-button,.fc-dayGridMonth-button{
+    background: linear-gradient(to right, red , yellow) !important;
+    border-color:white  !important;
+}

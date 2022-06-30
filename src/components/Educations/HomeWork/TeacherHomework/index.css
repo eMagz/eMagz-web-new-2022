@@ -1,0 +1,25 @@
+.hmwrkteacher_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .add_icon{
+    
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .hmwrkteacher_table{
+        clear: both;
+    
+    }
+    .hmwrkteacher_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    

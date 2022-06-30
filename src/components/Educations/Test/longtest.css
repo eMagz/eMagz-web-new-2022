@@ -1,0 +1,68 @@
+
+.longtext_container{
+    width:100vw;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.ques_header{
+
+margin-top: 100px;
+margin-left: 20px;
+margin-right: 20px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding-bottom: 15px;
+border-bottom: 2px solid black;
+}
+
+
+
+.marks_zone{
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-right: 40px;
+    float: right;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.test_head{
+
+font-size: 1.2rem;
+font-weight: bold;
+line-height: 1.6;
+}
+
+.question_zone{
+
+ margin-top: 50px;
+ margin-left: 20px;
+ margin-right: 20px;
+ display: flex;
+ max-width: 100%;
+ /* overflow: scroll; */
+ text-align: justify;
+}
+
+.long_ans{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.word_count{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+

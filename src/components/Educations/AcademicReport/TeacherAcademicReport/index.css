@@ -1,0 +1,24 @@
+.teacherreport_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .teacherreport_icon{
+    
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .teacherreport_table{
+        clear: both;
+    
+    }
+    .teacherreport_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

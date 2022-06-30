@@ -1,0 +1,136 @@
+.wishlistText {
+  margin-left: 100px;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+}
+
+.wishlistText img {
+  width: 16px;
+  height: 12px;
+}
+
+.wishlistText span {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.wishlistText span:first-child {
+  margin-right: 14px;
+}
+
+.wishlistText span:last-child {
+  margin-left: 14px;
+}
+
+#review__container.orderContainer {
+  max-width: 1177px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#review__container.orderContainer form {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  display: block;
+}
+
+#review__container.orderContainer form:last-child {
+  margin-bottom: 0;
+}
+
+#review__container.orderContainer .orderWraper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 425px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails .orderImg {
+  width: 141px;
+  height: 138px;
+  margin-right: 22px;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails .orderImg img {
+  width: 100%;
+  height: 100%;
+  background: #c4c4c4;
+  border-radius: 16.2541px;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails .reviewDescription .name {
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails .reviewDescription .orderedQty {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+#review__container.orderContainer .orderWraper .reviewDetails .reviewDescription .deliverytext {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #9a9a9a;
+}
+
+#review__container.orderContainer .orderWraper .rating__star {
+  width: 195px;
+}
+
+#review__container.orderContainer .orderWraper .rating__star .star__wrapper .rating {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#review__container.orderContainer .orderWraper .rating__star .star__wrapper span {
+  margin-right: 8px;
+}
+
+#review__container.orderContainer .orderWraper .rating__star .star__wrapper span:last-child {
+  margin-right: 0;
+}
+
+#review__container.orderContainer .orderWraper .review__wrapper {
+  width: 470px;
+}
+
+#review__container.orderContainer .orderWraper .review__wrapper label {
+  margin-bottom: 9px;
+  font-weight: 500;
+}
+
+#review__container.orderContainer .orderWraper .review__wrapper textarea {
+  width: 100%;
+  height: 72px;
+  outline: none;
+  border: none;
+  padding: 15px;
+  background-color: #e9e9e9;
+}
+/*# sourceMappingURL=index.css.map */

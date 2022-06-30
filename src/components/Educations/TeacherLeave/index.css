@@ -1,0 +1,37 @@
+.techleave_container{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leaveadd_button{
+    float: right
+}
+
+.leave_tabs{
+   
+    margin-top: 20px;
+}
+
+.leave_header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

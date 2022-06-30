@@ -1,0 +1,91 @@
+/* .vender-order-action {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+} */
+.vender-order-action {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.add-product-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #000000 !important;
+}
+
+.add-product-Simpleicon {
+    margin-right: 15px;
+}
+
+.product-Icons {
+    font-size: 20px !important;
+    color: #000000;
+}
+
+.orderProductName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    margin: 0;
+}
+
+.productCode {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: .7rem;
+}
+
+.productCode__container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.vender-order-EyeactionDetails {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #254EE1 !important;
+}
+
+.vender-order-DeleteactionDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FF1212 !important;
+}
+
+.product-destails__notavailable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-destails__notavailable h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(66, 25, 179)(0, 4, 255) !important;
+}
+

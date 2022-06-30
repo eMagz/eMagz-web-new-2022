@@ -1,0 +1,28 @@
+.applytimetable_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+    }
+
+    .applytimtable_card{
+    
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding-top: 50px;
+        padding-bottom: 50px;
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+
+.timetable_buttons{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

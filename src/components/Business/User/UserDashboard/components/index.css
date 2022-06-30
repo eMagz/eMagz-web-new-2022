@@ -1,0 +1,544 @@
+.categoryHeading {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.categoryHeading h3 {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 48px;
+  letter-spacing: 0.145em;
+  color: #000000;
+}
+
+.userdash_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.items_card_container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items_card {
+  transition: 0.3s;
+  width: 115px;
+  height: 115px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+
+.items_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: 0px !important;
+}
+
+.items_cardText {
+  font-family: Poppins;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #626262;
+}
+
+/* ================================================NEW arrival======================= */
+.newArrival {
+  display: flex;
+  padding: 4rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.newArrival h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: 0.145em;
+  color: #000000;
+}
+
+
+.newArrivalProducts {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.newProductContainer {
+  width: 253px;
+  height: 400px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.newProductImg {
+  width: 199px;
+  height: 306px;
+
+}
+
+.newProductImg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.newProductInfo {
+  padding: 5px;
+  width: 100%;
+}
+
+.newProductInfo p {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.newProductInfo p i {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+
+
+.newProductInfo h5 {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  padding: 5px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* ==========================================FOOTER =========================== */
+
+
+
+
+.footerhead {
+  padding: 4rem 7rem;
+}
+
+.footerhead h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #000000;
+
+}
+
+.footerhead h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.0239px;
+  line-height: 35px;
+}
+
+.footerContainer {
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlistContainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomeList ul {
+  list-style: none;
+}
+
+.HomeList ul li {
+  padding: 10px 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.2359px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  color: #000000;
+
+}
+
+.blogList ul {
+  list-style: none;
+}
+
+.blogList ul li {
+  cursor: pointer;
+  padding: 10px 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.2359px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  color: #000000;
+
+}
+
+
+.contactContainer {
+  width: 600px;
+  float: right;
+}
+
+.contactContainer p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 13px;
+  color: #000000;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+.formContainer {
+  width: 100%;
+  padding-left: 11rem;
+}
+
+.contactInput {
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 400px;
+  height: 60px;
+}
+
+.contactInput::-webkit-input-placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+
+}
+
+.contactBtnContainer {
+  padding-top: 1rem;
+}
+
+.HomeList ul h4 {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+
+.blogList ul h4 {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.contactBtn {
+  width: 66%;
+  height: 45px;
+  outline: none;
+  border: none;
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #6BC9FE 0%, #0064AC 100%);
+  border-radius: 4.13118px;
+
+}
+
+
+.footerBottom {
+  padding: 4rem;
+}
+
+.footerLine {
+  border: 0.38075px solid #000000;
+  width: 100%;
+}
+
+.reservedText {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* ================================================SELECT FASHION=================================== */
+
+.selectFashionContainer {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+}
+
+.selectFashionContent {
+  padding: 8rem 0;
+  width: 100%;
+  display: flex;
+
+}
+
+/* .selectFashionImg{
+  width: 1071.47px;
+  height: 472px;
+} */
+
+.selectFashionImg {
+  height: 100%;
+}
+
+.selectFashionStyle {
+  width: 100%;
+  margin: 5rem auto;
+  padding-left: 5rem;
+}
+
+
+.selectFashionText {
+  color: #ffffff;
+}
+
+.selectFashionText h1 {
+  color: #ffffff;
+}
+
+.selectFashionLine {
+  margin-top: 5rem;
+  /* border: 1px solid #fff; */
+}
+
+.selectFashionStyle span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+}
+
+.selectFashionStyle h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54.76px;
+  line-height: 82px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.newStyleShowNow {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.3834px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+/* ===============================NEW SHOOSE============================ */
+.newShooseContainer {
+  padding: 10px 3rem;
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shooseProductContainer {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  padding: 7rem 0;
+  margin-left: 5rem;
+}
+
+.newShooseProduct {
+  height: 300px;
+  width: 250px;
+}
+
+.newShooProductImg {
+
+  height: 220px;
+  width: 200px;
+}
+
+.newShooProductImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.largeShooseImg {
+  position: relative;
+}
+
+/*.largeShooseImg img{
+  /* height: 80%;
+  width: 85%;
+}  */
+
+.halfCircle {
+  margin-top: 4rem;
+  background: #BC7452;
+  display: inline-block;
+  /* margin: 0 1em 1em 0; */
+  height: 190px;
+  width: 95px;
+  border-bottom-right-radius: 380px;
+  border-top-right-radius: 380px;
+}
+
+.halfCircleContainer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+}
+
+.shooseOfferZone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoosOff {
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.shoosOff h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.shoosOff span {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.liveShooseTime {
+  padding: 0 2rem;
+  margin-top: 5rem;
+}
+
+.liveShooseText span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.6667px;
+  color: #FFFFFF;
+}
+
+.liveShooseText p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.stayFearless {
+  margin-top: 12rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.stayFearless p {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 23px;
+  color: #FFFFFF;
+}
+
+.stayFearless h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+/* ========================================WINTOR SCRTION=============================== */
+.wintorContainer {
+  display: flex;
+  margin: 1rem 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+.carousel-image__container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.watchImg img {
+  Width: 385px;
+  Height: 239px;
+
+}
+
+.watchImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.middleImg {
+  height: 350px;
+  width: 200px;
+  padding: 0 1rem;
+}
+
+.middleImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+  margin: 0 15px;
+}
+
+
+.redImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.termAndConditionImg {
+  font-size: 10px;
+}

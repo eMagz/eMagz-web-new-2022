@@ -1,0 +1,83 @@
+.temp2_container{
+
+    padding: 6px;
+    }
+    
+    .tem2_card2{
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .temp2_header{
+        height: 200px;
+        width: 100%;
+        background-color: #ccccb3;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        
+       
+    }
+    
+    .temp2_main{
+        padding-top: 70px;
+        padding-right: 20px;
+        position: relative;
+       right: 0;
+        
+        
+    }
+    
+    
+    
+    
+    .temp2_picture{
+        
+        vertical-align: middle;
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+         border: 5px solid white ;
+    
+    
+     }
+    
+    .temp2acc_info{
+        display: flex;
+        flex-direction: row; 
+         justify-content: space-between;
+        width: 25vw;
+        padding-top: 120px;
+        z-index: 600;
+       padding-left: 20px;
+    }
+    
+    .camera_icon{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+       
+    }
+    
+    .tabs2_image{
+        margin: auto;
+        width: 20vw;
+        height: 30vh; 
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+
+
+
+
+
+

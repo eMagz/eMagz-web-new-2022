@@ -1,0 +1,112 @@
+.wishlistText {
+  margin-left: 100px;
+  padding: 0 !important;
+  margin-bottom: 59px;
+  margin-top: 38px !important;
+  img {
+    width: 16px;
+    height: 12px;
+  }
+  span {
+    font-size: 27px;
+    font-weight: 600;
+    &:first-child {
+      margin-right: 14px;
+    }
+    &:last-child {
+      margin-left: 14px;
+    }
+  }
+}
+#review__container {
+  &.orderContainer {
+    max-width: 1177px;
+    width: 100%;
+    margin: 0 auto;
+    form {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 30px;
+      display: block;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .orderWraper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .reviewDetails {
+        display: flex;
+        width: 425px;
+        align-items: center;
+
+        .orderImg {
+          width: 141px;
+          height: 138px;
+          margin-right: 22px;
+          img {
+            width: 100%;
+            height: 100%;
+            background: #c4c4c4;
+            border-radius: 16.2541px;
+          }
+        }
+        .reviewDescription {
+          .name {
+            font-size: 33px;
+            font-weight: 600;
+            margin: 0;
+            margin-bottom: 9px;
+          }
+          .orderedQty {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: 12px;
+          }
+          .deliverytext {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            color: #9a9a9a;
+          }
+        }
+      }
+      .rating__star {
+        width: 195px;
+        .star__wrapper {
+          .rating {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: 15px;
+          }
+          span {
+            margin-right: 8px;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .review__wrapper {
+        width: 470px;
+        label {
+          margin-bottom: 9px;
+          font-weight: 500;
+        }
+        textarea {
+          width: 100%;
+          height: 72px;
+          outline: none;
+          border: none;
+          padding: 15px;
+          background-color: #e9e9e9;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.side-businessdrawer{
+    height: 100%;
+    background-color:white;
+    
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 300px;
+    z-index: 200;
+    transform: translateX(-200%);
+    transition: transform 0.4s ease-out;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    flex-direction: column;
+    display: flex;
+   
+}
+
+.side-businessdrawer.open{
+    transform: translateX(0);
+}
+
+
+.buss_heading{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.main_list{
+    overflow: scroll;
+    height: 70vh;
+}
+
+.hambutton1{
+  background-color: white;
+  outline: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+
+}
+
+.prof{
+   max-width: 100%;
+   overflow: hidden;
+   display: flex;
+   margin-left: -11px;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.name{
+  font-size: 1.4rem;
+  font-weight: bold;
+  white-space: nowrap; 
+  width: 250px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  margin-left: 22px;
+}
+
+.email{
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
+    color: gray;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px; 
+}
+
+
+
+
+
+
+

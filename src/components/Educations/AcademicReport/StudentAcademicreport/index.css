@@ -1,0 +1,62 @@
+.acastudent_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .acastudent_icon{
+    
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .acastudent_table{
+        clear: both;
+    
+    }
+    .acastudent_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   
+    .schoolname{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        margin-bottom: 40px;
+    }
+
+    .schoolname h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+.sturow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 6px;
+}
+
+.student_details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    background-color: #e5e5cc;
+}
+
+
+
+
+
+
+
+
+
+

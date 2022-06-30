@@ -1,0 +1,253 @@
+/* ==============================NAVBAR===================== */
+
+.navColor {
+    background: #ffffff !important;
+}
+
+.leftIcon {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circleIcon {
+    padding-right: 1rem;
+}
+
+.blueIcon {
+    padding-right: 5px;
+    width: 80.96px;
+    height: 75px;
+}
+
+.blueIcon img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.headertext h5 {
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3752px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 3px
+}
+
+.headertext p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.21514px;
+    line-height: 9px;
+    color: #000000;
+    margin: 0;
+}
+
+.navRight {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navlinkIcon {
+    padding: 0 2.5rem;
+}
+
+.verticalLine {
+    height: 71.5px;
+    border: 3px solid #D2D2D2;
+}
+
+.downloadText {
+    padding-left: 5px;
+    width: 141px;
+    height: 60px;
+}
+
+.downloadText p {
+    margin: 0 auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3333px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.downloadBoldText {
+    width: 100%;
+    color: rgba(19, 100, 192, .911);
+}
+
+.carousel-slider {
+    height: auto !important;
+}
+
+.caraculDiv {
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.hero_text {
+    position: absolute;
+    top: 0;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.hero_text h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 71.9873px;
+    line-height: 108px;
+    color: #FFFFFF;
+}
+
+.hero_text h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.0469px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.hero_text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0469px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.shopNowLine {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8483px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.shopNowLine::after,
+.shopNowLine::before {
+    flex-grow: 1;
+    height: 1px;
+    content: '\a0';
+    background-color: #ddd;
+    position: relative;
+    top: 0.5em;
+    margin-top: 10px;
+}
+
+.shopNowLine:before {
+    margin-right: 10px;
+}
+
+.shopNowLine:after {
+    margin-left: 10px;
+}
+
+.caraculDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.termAndConditionImg {
+    padding-top: 6.5rem;
+    font-size: 12px !important;
+}
+
+.thumb {
+    width: 60px;
+    height: 100px;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.searchForm {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    width: 41px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5px;
+
+}
+
+.searchInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 41.5px;
+    line-height: 60px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 5px 3px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 2em;
+    transition: all 1s;
+}
+
+.searchForm:hover {
+    border: 3px solid rgb(0, 0, 0);
+    width: 200px;
+    cursor: pointer;
+}
+
+.searchForm:hover .searchInput {
+    display: block;
+}
+
+.searchForm:hover .fa {
+    /* background: #07051a; */
+    color: black
+}
+
+.searchExtra {
+    margin-top: 3rem;
+}

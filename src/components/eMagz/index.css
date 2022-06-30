@@ -1,0 +1,238 @@
+.mainsocialpage {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.carousel-control.left, .carousel-control-prev,
+.carousel-control.right, .carousel-control-next,
+.carousel-control.left:hover, .carousel-control-prev:hover,
+.carousel-control.right:hover, .carousel-control-next:hover {
+background: none !important;
+}
+.post_textarea{
+    width: 100%;
+    font-size: 14px;
+    min-height: 100px;
+}
+.post_name {
+    color: black;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 10px 10px 0px 10px;
+}
+.status_text{
+    width: 98%;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.post_status {
+    color: rgb(8, 83, 168);
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainchatbody {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 105px;
+    margin-left: 60px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icontext {
+    width: 58px;
+    height: auto;
+    color: #000000;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.storybox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    float: left;
+}
+
+.storyblock {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 60px;
+    height: 100vh;
+}
+
+.storycard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: inherit;
+    margin-bottom: 20px;
+}
+
+.cardnav {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: inherit;
+}
+
+.cardbody {
+    min-height: 100px;
+    padding: 10px;
+    width: 100%;
+}
+
+.cardimg {
+    width: 90%;
+    margin-left: 5%;
+    height: 80vh;
+}
+.cardvideo {
+    width: 90%;
+    height: 80vh;
+}
+
+.groupicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcolor {
+    color: black;
+    margin: 5px 10px;
+    font-size: 1rem;
+}
+
+.postname {
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+.persontext {
+    font-size: 1rem;
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    flex-direction: column;
+    float: left;
+    padding: 5px 10px;
+}
+
+.messagebox {
+    clear: both;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.msgfooter {
+    bottom: 0;
+    clear: both;
+    height: 60px;
+}
+
+.textinput {
+    width: 80%;
+    left: 0;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.profiledetails {
+    width: 40vw;
+    position: fixed;
+    float: right;
+    margin-top: 30px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.mainprofile {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.suggestion_box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.suggestion_head {
+    color: gray;
+}
+
+.suggestion_list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.followers {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -2px;
+    text-align: left;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    width: 100%;
+}
+.search_user{
+    float: right;
+    font-size: 14px;
+    width: 220px;
+    border-radius: 2px;
+    padding: 5px;
+    height: 30px;
+    border: #cccccc 1px solid;
+}
+.follow {
+    color: gray;
+    text-align: initial;
+    margin-right: 30px;
+    font-size: 12px;
+}
+.MuiAppBar-colorPrimary {
+    background-color: #f05458 !important;
+}

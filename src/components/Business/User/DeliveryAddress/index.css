@@ -1,0 +1,106 @@
+.paymentContainer{
+    margin: auto;
+    height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+}
+
+.addressContainer{
+    margin: 5rem; 
+    position: relative;
+}
+
+.OrderNow_button{
+    right: 0;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.paymentContainer_nav{
+    width: 100%;
+    height: 70px;
+    background-color: #ff7272;
+    display: flex;
+    flex-direction: row;
+}
+
+.address{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding-left:30px;
+    padding-top: 10px;
+}
+
+.address_list{
+    display: flex;
+    flex-direction: row;
+    margin:auto 10px;
+   
+}
+
+.place_Order_name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.home{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    background-color:#8a8a5c;
+    height: 25px;
+    padding: auto 3px;
+    color: #ccccb3;
+    margin-right: 20px;
+
+}
+
+.mobile{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.address_list_description{
+padding-left:54px ;
+font-size: 1.1rem;
+
+}
+
+.placeOrder_button{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.address_list_container{
+    border-bottom:1px double #D3D3D3;
+}
+
+.address_list_container:hover{
+    background-color: #e0ebeb;
+}
+
+.address_icon{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.MuiIconButton-colorPrimary {
+    color: white !important;
+}
+
+.OrderNow{
+    padding: 20px 55px;
+    background-color:rgb(201, 75, 75);
+    border:1px solid #ff7272;
+    margin-right: 10px;
+    color: #ffffff !important;
+    font-size: 1.2rem;
+}
+
+

@@ -1,0 +1,29 @@
+.last_container{
+
+margin-top: 100px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.last_test_head{
+
+border-bottom: 2px solid black;
+
+
+}
+
+.last_test_text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.last_test_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+

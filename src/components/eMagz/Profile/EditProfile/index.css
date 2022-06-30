@@ -1,0 +1,36 @@
+.editProf_container {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.editProf_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.editProf_image {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.editProf_name {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.edit_form {
+    margin-top: 20px;
+    width: 50vw;
+    right: 0;
+    position: absolute;
+    margin-right: 30px;
+    /* align-items: center; */
+}

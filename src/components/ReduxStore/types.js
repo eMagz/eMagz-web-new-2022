@@ -1,0 +1,27 @@
+export const GET_USERS = 'GET_USERS';
+
+export const GET_USERS_RESPONSE = 'GET_USERS_RESPONSE';
+export const GET_USERS_REGISTER = 'GET_USERS_REGISTER';
+export const GET_USERS_FAILED = 'GET_USERS_FAILED'
+export const USERS_REGISTER_SUCCESS = 'USERS_REGISTER_SUCCESS';
+
+
+
+export const LOGIN_USER_REQ = 'LOGIN_USER_REQ';
+export const LOGIN_USER_RES = 'LOGIN_USER_RES';
+export const LOGIN_USER_FAIL = 'LOGIN_USER_FAIL';
+
+
+export const GET_VENDOR_FAIL = 'GET_VENDOR_FAIL';
+export const GET_VENDOR_REQ = 'GET_VENDOR_REQ';
+export const GET_VENDOR_RES = 'GET_VENDOR_RES';
+
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+
+
+
+
+
+
+

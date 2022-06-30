@@ -1,0 +1,63 @@
+.viewstudent_container{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .viewstudent_card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 100%;
+        background-color: #f0f5f5;
+    }
+
+.viewstudent_card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.student{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.student_description_lebel{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    overflow: scroll;
+}
+
+
+
+.student_lebel{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.student_name{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* .viewStudent_list{
+
+} */
+
+.student_description{
+    width: 80%;
+    height: 180px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
