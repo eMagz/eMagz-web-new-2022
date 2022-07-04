@@ -93,7 +93,7 @@ const Viewboard = () => {
   };
 
   return (
-    <>
+    <div className="dashboard-main">
       <div className="maindiv">
         Explore the options below according to your preference
       </div>
@@ -185,7 +185,7 @@ const Viewboard = () => {
           <AddIcon />
         </Fab>
       </div> */}
-    </>
+    </div>
   );
 };
 export default Viewboard;
