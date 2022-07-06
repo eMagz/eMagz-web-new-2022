@@ -5,6 +5,7 @@ import Register from "./components/Register";
 import Forget from "./components/ForgetPassword";
 import Dashboard from "./components";
 import Dashboard2 from "./components/Dashboard/dashboard";
+import Dashboard1 from "./components/Dashboard/dashboardEBusiness";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import VideoConference from "./components/VideoConference";
 import ContactList from "./components/VideoConference/ContactList";
@@ -688,6 +689,7 @@ const App = () => {
 					{/* Dashboard */}
 					<Route exact path="/dashboard" component={Dashboard} />
 					<Route exact path="/dashboard2" component={Dashboard2} />
+					<Route exact path="/dashboard1" component={Dashboard1} />
 					<Route exact path="/dashboard/profile" component={Profile} />
 					<Route exact path="/change-password" component={ChangePassword} />
 					<Route exact path="/dashboard/settings" component={Settings} />

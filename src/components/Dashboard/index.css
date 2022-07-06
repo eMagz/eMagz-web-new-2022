@@ -146,7 +146,7 @@
 	transform: translateY(40px);
 }
 .dashboard-main {
-	background: linear-gradient(49.76deg, #cc0022 24.94%, #ff8db6 100.28%);
+	background: linear-gradient(34.76deg, #cc0022 24.94%, #ff8db6 100.28%);
 
 	height: 100vh;
 }
@@ -155,7 +155,7 @@
 	background: url(../../assets/dashboard-logo-main.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center;
 	/* width: 70%;
 	height: 80%; */
 	/* height: 80%;
@@ -164,12 +164,204 @@
 	padding-top: 200px;
 	background-repeat: no-repeat;
 	background-position: 50%; */
-	
-	width: 50%;
-	height: 80%;
-	margin-left: 20%;
-	top: 33px;
+
+	width: 43%;
+	height: 90%;
+	margin-left: 15%;
+	margin-top: -80px;
 }
 .rectangle {
-	background: url(../../assets/dashboard-rectange.png);
+	/* background: url(../../assets/dashboard-rectange.png); */
+	position: absolute;
+	width: 55.2%;
+	height: 69%;
+	top: 22.5%;
+	left: 25.8%;
+
+	background: rgba(255, 255, 255, 0.1);
+	/* filter: blur(0.03px); */
+	border-radius: 0px 182.423px 0px 109.533px;
+	/* border: 2px rgba(167, 64, 64, 0.793) solid; */
+	box-shadow: 10px 10px 30px #8f2d44c6;
+}
+.navbar img {
+	user-drag: none;
+	pointer-events: none;
+	margin-left: 30px;
+	margin-top: 25px;
+	height: 62px;
+}
+.nav-links {
+	padding-right: 30px;
+}
+
+.nav-links li {
+	display: inline;
+	float: left;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: #dddddd;
+	font-family: "Poppins", sans-serif;
+	font-size: 19px;
+	font-weight: 500;
+}
+.nav-links li a:hover {
+	color: #ffffff;
+}
+.nav-links li {
+	margin-top: 42px;
+}
+
+.module-card {
+	position: absolute;
+	width: 28%;
+	height: 45.3%;
+	left: 17.8%;
+	top: 32%;
+
+	/* B - Blue */
+
+	background: linear-gradient(
+		55.02deg,
+		#5acff9 -6.1%,
+		#38b1f4 9.64%,
+		#5bc3fc 25.9%,
+		#23a3ff 59.71%,
+		#2489d2 74.51%,
+		#2985c7 93.99%
+	);
+	border-radius: 53.8068px;
+}
+.module-card img {
+	padding-left: 18.3%;
+	padding-top: 27%;
+	/* padding: 17% 8% 10% 18.3%; */
+	width: 81.3%;
+}
+.module-details {
+	position: absolute;
+	width: 26%;
+	height: 114px;
+	left: 50.7%;
+	top: 40%;
+}
+.module-details h1 {
+	font-size: 62px;
+	color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	padding-left: 12px;
+}
+.module-details p {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.31em;
+	color: #ffffff;
+	margin-top: 18px;
+	margin-bottom: 80px;
+	padding-left: 18px;
+}
+.get-started-btn {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	color: #ffffff;
+	background: #ee688a;
+	border-radius: 6px;
+	padding: 30px 140px;
+	cursor: pointer;
+}
+
+.slider-line {
+	position: absolute;
+	width: 901.62px;
+	height: 9.22px;
+	left: 493.23px;
+	top: 982.2px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 57.6481px;
+}
+
+/* eBusiness Design starts here */
+.dashboard-main-ebusiness {
+	background: #3aa1e2;
+
+	height: 100vh;
+}
+
+.module-card-ebusiness {
+	position: absolute;
+	width: 28%;
+	height: 45.3%;
+	left: 17.8%;
+	top: 32%;
+	background: linear-gradient(
+		55.02deg,
+		#ff859a -6.1%,
+		#fb7f96 9.64%,
+		#ea617f 25.9%,
+		#ff6e8b 59.71%,
+		#fc6180 67.47%,
+		#fa5a77 93.99%
+	);
+	border-radius: 53.8068px;
+}
+.get-started-btn-ebusiness {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	color: #ffffff;
+
+	border-radius: 6px;
+	padding: 30px 140px;
+	cursor: pointer;
+	background: linear-gradient(
+		55.02deg,
+		#5acff9 -6.1%,
+		#38b1f4 9.64%,
+		#5bc3fc 25.9%,
+		#23a3ff 59.71%,
+		#2489d2 74.51%,
+		#2985c7 93.99%
+	);
+}
+
+.module-card-ebusiness img {
+	padding-left: 22.3%;
+	padding-top: 17%;
+	/* padding: 17% 8% 10% 18.3%; */
+	width: 74.3%;
+}
+
+/* .module-details-ebusiness {
+	position: absolute;
+	width: 26%;
+	height: 114px;
+	left: 50.7%;
+	top: 40%;
+} */
+
+.rectangle-ebusiness {
+	/* background: url(../../assets/dashboard-rectange.png); */
+	position: absolute;
+	width: 55.2%;
+	height: 69%;
+	top: 22.5%;
+	left: 25.8%;
+
+	background: rgba(255, 255, 255, 0.1);
+	/* filter: blur(0.03px); */
+	border-radius: 0px 182.423px 0px 109.533px;
+	/* border: 2px rgba(167, 64, 64, 0.793) solid; */
+	box-shadow: 10px 10px 30px #2b75a3d8;
 }
